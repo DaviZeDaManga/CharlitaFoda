@@ -1,0 +1,392 @@
+#MeuFeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
+    position: fixed;
+
+    width: 100%;
+    height: 85px;
+}
+
+.MeuFeed {
+    height:20px;
+}
+
+.MeuFeedTopicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+    background-color: white;
+    padding: 0px 30px;
+}
+
+.MeuFeedTopicos-temas {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.MeuFeedTopicos-temas > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    margin-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MeuFeedTopicos-temas > a > img {
+    height: 13px;
+}
+
+.MeuFeedTopicos-pesquisa > input {
+    width: 258px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);
+}
+
+.CharlitaNews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(218, 74, 8), rgb(220, 114, 29), rgb(235, 172, 36));
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.CharlitaNews > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.CharlitaNews > div > a > .Entrar {
+    width: 127px;
+    padding: 5px 40px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 10px;
+    color: rgb(23, 23, 23);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+#feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 105px 8px 5px 8px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 900px;
+}
+
+#redirecionador-topicos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#redirecionador-noticias {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.feed-conteudo-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+.feed-conteudo-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.noticias-t1-titulo {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+
+
+
+
+.noticias-t1-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/esporte/inglaBulga.jpg);
+
+    border-radius: 10px;
+    width: 200%;
+    height: 280px;
+    padding: 10px;
+}
+
+.noticia-t1-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/esporte/inglaBulga.jpg);
+
+    border-radius: 10px;
+    width: 200%;
+    height: 280px;
+    padding: 10px;
+}
+
+.noticia-t1-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(235, 235, 235), rgb(198, 198, 198));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t1-04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(235, 235, 235), rgb(198, 198, 198));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+
+
+
+
+
+.noticia-t2-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(255, 235, 137), rgb(255, 177, 108));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img01 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/esporte/meninas\ volei.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(253, 253, 253), rgb(218, 218, 218));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img02 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/esporte/jiujitsuIlustracao.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(255, 235, 137), rgb(255, 177, 108));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img03 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/esporte/quadraescolaqualquer.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(145, 255, 137), rgb(137, 255, 108));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img04 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/esporte/celcinho.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-img05 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/esporte/);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.noticia-t2-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px 0px 15px;
+}
+
+.noticia-t2-conteudo-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+    padding: 2px;
+}
+
+.noticia-t2-conteudo-t > img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.noticia-t2-conteudo-t > a {
+    margin-right: 5px;
+}
+
+.noticia-t2-conteudo-t > h2 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.notcias-t2-titulo {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 26, 26);
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}

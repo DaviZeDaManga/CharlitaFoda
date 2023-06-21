@@ -1,0 +1,489 @@
+
+
+#MeuFeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
+    position: fixed;
+
+    width: 100%;
+    height: 85px;
+}
+
+.MeuFeed {
+    height:20px;
+}
+
+.MeuFeedTopicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+    background-color: white;
+    padding: 0px 30px;
+}
+
+.MeuFeedTopicos-temas {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.MeuFeedTopicos-temas > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    margin-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MeuFeedTopicos-temas > a > img {
+    height: 13px;
+}
+
+.MeuFeedTopicos-pesquisa > input {
+    width: 258px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);
+}
+
+.CharlitaNews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(105, 9, 9), rgb(149, 34, 34), rgb(159, 44, 44));
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.CharlitaNews > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.CharlitaNews > div > a > .Entrar {
+    width: 127px;
+    padding: 5px 40px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 10px;
+    color: rgb(23, 23, 23);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+#feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 105px 30px 5px 30px;
+}
+
+#redirecionador-topicos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#redirecionador-noticias {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+}
+
+
+.noticias-t1-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/pussy.jpg);
+
+    border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    padding: 10px;
+}
+
+.noticias-t1-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/th.jpg);
+
+    border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    padding: 10px;
+}
+
+.noticias-t1-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/th\ \(3\).jpg);
+    background-size: 100% 100%;
+
+    border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    padding: 10px;
+}
+
+.noticias-t1-04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/th\ \(4\).jpg);
+
+    border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.feed-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feed-conteudo-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 280px;
+    padding-right: 5px;
+}
+
+.feed-conteudo-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 280px;
+    padding-left: 5px;
+}
+
+.noticias-t1-titulo {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+.noticia-t2-left01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(255, 220, 149), rgb(255, 240, 186));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-right: 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img01 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/esporte/meninas\ volei.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-right02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(247, 255, 230), rgb(232, 255, 232));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img02 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/morreu.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-left03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(220, 208, 145), rgb(253, 220, 192));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-right: 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img03 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/lula.webp);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-right04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(241, 241, 241), rgb(241, 241, 241));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img04 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/estranhosnanet.png);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-left05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(241, 241, 241), rgb(231, 231, 231));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-right: 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img05 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/AAOKeWG.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-right06 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(238, 255, 219), rgb(214, 239, 209));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 5px;
+    box-shadow:  3px 3px 3px  rgba(32, 32, 32, 0.162);
+}
+
+.noticia-t2-img06 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/th\ \(1\).jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-left07 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(220, 208, 145), rgb(253, 220, 192));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.noticia-t2-img07 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/th\ \(2\).jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noticia-t2-right08 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgb(224, 224, 224), rgb(215, 214, 215));
+
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.noticia-t2-img08 {
+    background: linear-gradient(rgba(30, 30, 30, 0.1), rgba(35, 35, 35, 0.1)), url(../../assets/images/AAYKOkb.jpg);
+    background-position: 0px 0px;
+    background-size: 100% 140px;
+
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+
+
+
+.noticia-t2-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px 0px 15px;
+}
+
+.noticia-t2-conteudo-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+    padding: 2px;
+}
+
+.noticia-t2-conteudo-t > img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.noticia-t2-conteudo-t > a {
+    margin-right: 5px;
+}
+
+.noticia-t2-conteudo-t > h2 {
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.442);
+}
+
+.noticias-t2-titulo {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 26, 26);
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+@media screen {
+    
+}
+
+
