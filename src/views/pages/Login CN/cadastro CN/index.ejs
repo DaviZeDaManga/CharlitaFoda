@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("style.ejs") %>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="cadastro">
+        <form action="/register" method="post">
+            <h1>Cadastro</h1>
+            <p>Seja bem-vindo(a) ao site <span>Charlita News</span><br>
+                Fique por dentro das novidades</p>
+                <div class="cadastro-inputs">
+                    <input type="text" placeholder="Nome" name="nome" id="Nome" class="inputuser" required></input>
+                </div>
+                <div class="cadastro-inputs">
+                    <input type="password" placeholder="Senha" name="senha" id="senha" class="inputuser" required>
+                    <label for="senha"></label>
+                </div>  
+                <div class="cadastro-inputs">
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputuser" required>
+                </div>
+                <div class="buttons">
+                    <input type="submit" id="Cadastrar">
+                </div>
+        </form>
+        <a href="../../pagehome%20CN">
+            <button id="Voltar">Voltar</button>
+        </a>
+    </div>
+</body>
+</html>
