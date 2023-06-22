@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("style.ejs") %>
+    <title>Faça seu login</title>
+</head>
+<body>
+    <div class="cadastro">
+        <form action="/login" method="post">
+            <h1>Entrar</h1>
+            <p>Seja bem-vindo(a) de volta ao site <span>Charlita News</span><br>
+                Fique por dentro das novidades</p>
+                <div class="cadastro-inputs">
+                    <input type="text" placeholder="Nome" name="nome" id="nome" class="inputuser" required>
+                    <label for="nome"></label>
+                </div>  
+                <div class="cadastro-inputs">
+                    <input type="password" placeholder="Senha" name="senha" id="senha" class="inputuser" required>
+                    <label for="senha"></label>
+                </div>
+                <div class="buttons">
+                    <input type="submit" id="Entrar">
+                </div>
+        </form>
+        <a href="../../pagehome%20CN">
+            <button id="Voltar">Voltar</button>
+        </a>
+    </div>
+</body>
+</html>

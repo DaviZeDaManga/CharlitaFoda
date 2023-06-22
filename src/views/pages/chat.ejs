@@ -1,0 +1,30 @@
+<div>
+    <h1 style="text-align: center; font-family: Arial;">Comentários</h1>
+    <div style="text-align: center;">
+        <textarea id="show-messages" cols="70" rows="20" readonly></textarea>
+    </div>
+    <form id="chat-form" style="text-align: center; margin-bottom: 20px;">
+        <input type="text" name="message" id="message">
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script>
+    const socket = io()
+    document.querySelector('#chat-form').addEventListener('submit', event => {
+        event.preventDefault()
+        const message = document.querySelector('#message').value
+        document.querySelector('#chat-form').reset()
+        socket.emit('message', {message: message})
+    })
+
+    socket.on('message', message => loadMessage(message))
+    socket.on('previewMessages', messages => {for (message of messages) loadMessage(message)})
+
+    function loadMessage(message) {
+        let showMessages = document.querySelector('#show-messages')
+        message.message = message.message.replace('&', '&amp;').replace('>', '&gt;').replace('<', '&lt;').replace("'", '&#39;').replace('"', '&quot;')
+        showMessages.append(`${message.author}: ${message.message}\n`)
+        showMessages.scrollTop = showMessages.scrollHeight
+    }
+</script>
